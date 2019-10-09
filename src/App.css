@@ -1,5 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Quicksand&display=swap");
+
+* {
+  max-width: 100%;
+  font-size: 10px;
+}
+
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
+  margin: 2% 0;
 }
 
 .App-logo {
@@ -21,6 +33,42 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.content-container {
+  margin: 2% 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.api-img {
+  height: auto;
+  width: 70%;
+  border-radius: 20px;
+}
+
+.content-container h1 {
+  font-size: 4rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.content-container p {
+  padding: 0 1%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.8rem;
+  width: 65%;
+}
+
+.dateSelector {
+  padding: 10px;
+  margin: 0 0 3rem 0;
+  font-size: 1.8rem;
+  cursor: pointer;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
