@@ -1,13 +1,15 @@
-  
 import React from "react";
-import PhotoHandler from "./Components/NasaPhoto";
 import "./App.css";
-import NasaPhoto from "./Components/NasaPhoto";
+
+import ApodMain from './components/ApodMain.js';
+
+// import ApodCard from './components/ApodCard.js';
 
 function App() {
   return (
     <div className="App">
-      <NasaPhoto />
+      <h1>Nasa Astronomy Photo of the Day</h1>
+      <ApodMain />
     </div>
   );
 }
