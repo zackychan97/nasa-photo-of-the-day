@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
 
+import ApodMain from './components/ApodMain.js';
+
+// import ApodCard from './components/ApodCard.js';
+
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <h1>Nasa Photo of the Day</h1>
+      <ApodMain />
     </div>
   );
 }

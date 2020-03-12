@@ -31,3 +31,40 @@
     transform: rotate(360deg);
   }
 }
+
+/* ---------------------------------------- */
+
+.apod-card h2 {
+  font-size: 3rem;
+}
+.apod-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apod-card div {
+  display: flex;
+
+}
+
+.apod-card p {
+  width: 70%;
+  display: block;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+}
+
+.apod-card img {
+  width: 90%;
+  max-height: 800px;
+}
+
+* {
+  background-color: #282c34;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
